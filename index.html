@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DripWear | Ecommerce Clothing Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wgh@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" width="125px"></a>
+                    <!---- the logo needs to be changed --->
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Product</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your Workout<br>A New Style!</h1>
+                    <p>Success isn't always about greatness. It's about consistency.<br>Consistent hard work gains success. Greatness will come.</p>
+                    <a href="products.html" class="btn">Explore Now &#8594;</a>
+                    <!-- might change latter -->
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- div header ends  -->
+    
+    <!-- ----- featured categories begin -----  -->
+    <div class="categories">
+        <div class="small-container">
+            <h2 class="title">Sample Products</h2>
+            <div class="row">
+                <!-- 1st category  -->
+                <div class="col-3">
+                    <img src="images/category-1.jpg">
+                </div>
+                <!-- 2nd category  -->
+                <div class="col-3">
+                    <img src="images/category-2.jpg">
+                </div>
+                <!-- 3rd category  -->
+                <div class="col-3">
+                    <img src="images/category-3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- --- featured categories ends ----  -->
+
+     <!-- --- featured products begins ----  -->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <!-- 1st product  -->
+            <div class="col-4">
+                <a href="product-details.html"><img src="images/product-1.jpg"></a>
+                <a href="product-details.html"><h4>Red Printed T-Shirt</h4></a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <!-- 2nd product  -->
+            <div class="col-4">
+                <img src="images/product-2.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <!-- 3rd product  -->
+            <div class="col-4">
+                <img src="images/product-3.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <!-- 4th product  -->
+            <div class="col-4">
+                <img src="images/product-4.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <!-- other products to be added here -->
+        </div>
+        <!-- latest products begins  -->
+         <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <!-- 5th product  -->
+            <div class="col-4">
+                <img src="images/product-5.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <!-- 6th product  -->
+            <div class="col-4">
+                <img src="images/product-6.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <!-- 7th product  -->
+            <div class="col-4">
+                <img src="images/product-7.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <!-- 8th product  -->
+            <div class="col-4">
+                <img src="images/product-8.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <!-- 9th product  -->
+            <div class="col-4">
+                <img src="images/product-9.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <!-- 10th product  -->
+            <div class="col-4">
+                <img src="images/product-10.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <!-- 11th product  -->
+            <div class="col-4">
+                <img src="images/product-11.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <!-- 12th product  -->
+            <div class="col-4">
+                <img src="images/product-12.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+        <!-- latest products ends  -->
+    </div>
+
+    <!-- offer begins  -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/exclusive.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on DripWear Clothing Store</p>
+                    <h1>Smart Band 4</h1>
+                    <small>The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3) AMOLED color full-touch display with adjustible brightness, so everything is clear as can be.</small>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- offer ends  -->
+
+    
+    <!-- testimonials begins  -->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <!-- user 1  -->
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium accusamus beatae praesentium ducimus doloribus suscipit, ab ea deleniti corporis. Voluptas!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/user-1.png" alt="">
+                    <h3>User 1</h3>
+                </div>
+                <!-- user 2  -->
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium accusamus beatae praesentium ducimus doloribus suscipit, ab ea deleniti corporis. Voluptas!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/user-2.png" alt="">
+                    <h3>User 2</h3>
+                </div>
+                <!-- user 3  -->
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium accusamus beatae praesentium ducimus doloribus suscipit, ab ea deleniti corporis. Voluptas!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/user-3.png" alt="">
+                    <h3>User 3</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- testimonials ends here  -->
+
+    <!-- brands begin here  -->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <!-- brand 1  -->
+                <div class="col-5">
+                    <img src="images/logo-godrej.png" alt="">
+                </div>
+                <!-- brand 2  -->
+                <div class="col-5">
+                    <img src="images/logo-oppo.png" alt="">
+                </div>
+                <!-- brand 3  -->
+                <div class="col-5">
+                    <img src="images/logo-coca-cola.png" alt="">
+                </div>
+                <!-- band 4  -->
+                <div class="col-5">
+                    <img src="images/logo-paypal.png" alt="">
+                </div>
+                <!-- brand 5  -->
+                <div class="col-5">
+                    <img src="images/logo-philips.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- brands ends here  -->
+    
+
+    <!-- footer begins here  -->
+     <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download our Official App for Android and iOS devices</p>
+                    <div class="app-logo">
+                        <!-- these two images are to be changed into background images so as to support grayscale filter during transitions  -->
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png" id="iOS">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Clothes Accessible to the Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <!-- links according to the needs  -->
+                        <a href=""><li>Coupons</li></a>
+                        <a href=""><li>Blog Post</li></a>
+                        <a href=""><li>Return Policy</li></a>
+                        <a href=""><li>Join Affiliate</li></a>                      
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Connect With Us</h3>
+                    <ul>
+                        <!-- links according to the needs  -->
+                        <a href=""><li>Instagram</li></a>
+                        <a href="">TikTok</a>
+                        <a href=""><li>Facebook</li></a>
+                        <a href=""><li>X</li></a>
+                        <a href=""><li>YouTube</li></a>
+                        <a href=""><li>WhatsApp</li></a>
+                        <a href=""><li>Telegram</li></a>
+                    </ul>
+                </div>
+            </div>
+            <p class="developer">Developed Faithfully By <a href="_https://github.com/andianaocodestudio">Dev Andianao</a></p>
+            <hr>
+            <p class="copyright">&copy; 2024 DripWear | Eccomerce Clothing Store &nbsp;<span>#Your_Favourite's_Drippin'_Point</span></p>
+        </div>
+     </div>
+     <!-- footer ends here  -->
+
+     <div id="bottom-header">
+        <h3>THIS WEBSITE IS CURRENTLY UNDER DEVELOPMENT</h3>
+     </div>
+
+     <!-- --- JS for toggle menu ---  -->
+     <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "00px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                 MenuItems.style.maxHeight = "200px"
+            }               
+            else{
+                    MenuItems.style.maxHeight = "0px"
+            }
+        }
+      </script>
+</body>
+</html>
